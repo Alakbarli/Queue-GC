@@ -1,0 +1,10 @@
+C:\Users\Ulvi\source\repos\Queue\Queue\bin\Debug\Queue.exe.config
+C:\Users\Ulvi\source\repos\Queue\Queue\bin\Debug\Queue.exe
+C:\Users\Ulvi\source\repos\Queue\Queue\bin\Debug\Queue.pdb
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.Form1.resources
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.exe
+C:\Users\Ulvi\source\repos\Queue\Queue\obj\Debug\Queue.pdb
