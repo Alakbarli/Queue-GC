@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtNobedekiler = new System.Windows.Forms.Label();
             this.Novbeler = new System.Windows.Forms.ListBox();
             this.elave = new System.Windows.Forms.Button();
             this.cixar = new System.Windows.Forms.Button();
@@ -49,15 +49,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Novbe Cedveli";
             // 
-            // label2
+            // txtNobedekiler
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(360, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Novbede olanlar";
+            this.txtNobedekiler.AutoSize = true;
+            this.txtNobedekiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNobedekiler.Location = new System.Drawing.Point(360, 34);
+            this.txtNobedekiler.Name = "txtNobedekiler";
+            this.txtNobedekiler.Size = new System.Drawing.Size(109, 16);
+            this.txtNobedekiler.TabIndex = 1;
+            this.txtNobedekiler.Text = "Novbede olanlar";
             // 
             // Novbeler
             // 
@@ -95,8 +95,10 @@
             // 
             // Novbe
             // 
+            this.Novbe.Enabled = false;
             this.Novbe.Location = new System.Drawing.Point(194, 112);
             this.Novbe.Name = "Novbe";
+            this.Novbe.ReadOnly = true;
             this.Novbe.Size = new System.Drawing.Size(133, 20);
             this.Novbe.TabIndex = 6;
             // 
@@ -139,7 +141,7 @@
             this.Controls.Add(this.cixar);
             this.Controls.Add(this.elave);
             this.Controls.Add(this.Novbeler);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtNobedekiler);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -152,7 +154,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label txtNobedekiler;
         private System.Windows.Forms.ListBox Novbeler;
         private System.Windows.Forms.Button elave;
         private System.Windows.Forms.Button cixar;

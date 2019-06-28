@@ -35,8 +35,9 @@ namespace Queue
 
                 if (Novbedekiler < 20)
                 {
-                    QueueC.Queuee.Enqueue(Novbedekiler.ToString()+" "+daxiEdilen);
-                    Novbe.Text=QueueC.Queuee.Peek().Substring(1);
+                    
+                    QueueC.Queuee.Enqueue("No"+QueueC.Id.ToString()+" "+daxiEdilen);
+                    Novbe.Text = QueueC.Queuee.Peek();
                     Novbeler.Items.Clear();
                     int count = 0;
                     foreach(var dd in QueueC.Queuee)
@@ -49,6 +50,8 @@ namespace Queue
                         
                     }
                     Daxiledilecek.Text = "";
+                    QueueC.Id++;
+                    txtNobedekiler.Text = "Novbede "+QueueC.Queuee.Count.ToString()+" nefer";
                 }
                 else
                 {
@@ -68,7 +71,7 @@ namespace Queue
             if (QueueC.Queuee.Count >1)
             {
                 QueueC.Queuee.Dequeue();
-                Novbe.Text = QueueC.Queuee.Peek().Substring(1);
+                Novbe.Text = QueueC.Queuee.Peek();
                 int count = 0;
                 
                 if (QueueC.Queuee.Count > 0)
@@ -83,6 +86,7 @@ namespace Queue
                         count++;
 
                     }
+                    txtNobedekiler.Text ="Novbede "+ QueueC.Queuee.Count.ToString()+" nefer";
                 }
                 else
                 {
@@ -94,6 +98,7 @@ namespace Queue
             else
             {
                 MessageBox.Show("Novbede kimse yoxdur");
+                
             }
             
         }
